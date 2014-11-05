@@ -1,4 +1,0 @@
-DBS
-===
-
-Database Structures
