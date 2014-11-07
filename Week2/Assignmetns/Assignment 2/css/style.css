@@ -1,0 +1,74 @@
+/*
+Name: Angelica Dinh
+Class: Server-Side Languages
+Assignment: Week 1 Project Part 2
+Date Nov 1, 2014
+----------------------------------*/
+
+/* Layout
+----------------------------------*/
+body{
+    font-family: 'Kameron', serif;
+}
+
+/* Section
+----------------------------------*/
+.border{
+    width:500px;
+    margin:20px auto;
+    text-align:left;
+    padding:15px;
+    border:1px dashed #333;
+    background-color:#eee;
+}
+
+.fruitForm{
+    background-color: #d3d3d3;
+}
+
+/* Header
+----------------------------------*/
+h1{
+    color:#ef027d;
+}
+
+/* Button
+----------------------------------*/
+.btn{
+    background-color:#ff5bb0;
+    border-radius:6px;
+    border:1px solid #ee1eb5;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-size:15px;
+    font-weight:bold;
+    padding:6px 24px;
+    margin: 8px auto;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #c70067;
+}
+
+.btn:hover {
+background-color:#ef027d;
+}
+
+.btn:active {
+position:relative;
+top:1px;
+}
+
+
+/* Table
+----------------------------------*/
+.table{
+    /*border: 1px solid black;*/
+    table-layout: fixed;
+    width: 200px;
+}
+
+th, td {
+    /*border: 1px solid black;*/
+    overflow: hidden;
+    width: 120px;
+}

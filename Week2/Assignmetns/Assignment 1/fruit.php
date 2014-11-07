@@ -1,3 +1,10 @@
+<!--
+Name: Angelica M. Dinh
+Class: Server-Side Languages
+Assignment: Week 2 Project Part 1
+Date Nov 5, 2014
+-->
+
 <!DOCTYPE html>
 <html>
 <head lang="en">
@@ -18,7 +25,7 @@
 
         <form class="fruitForm" action="fruit.php" method="post">
             Fruit:<input type="text" name="fruitname" required=""/>
-            Color:<input type="text" name="fruitcolor" required=""/><br />
+            Color:<input type="text" name="fruitcolor" required=""/>
             <input class="btn" type="submit" name="submit" value="Submit" />
         </form>
     </section>
