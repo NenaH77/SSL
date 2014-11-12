@@ -5,6 +5,18 @@ Assignment: Week 2 Project Part 1
 Date Nov 5, 2014
 -->
 
+<!----- INSERT DATA THAT ADDS TO MY DATABASE ------>
+<?php
+//CONNECT TO DATABASE AND SETUP PDO
+
+
+?>
+
+
+
+
+<!----- HTML FORM ------>
+
 <!DOCTYPE html>
 <html>
 <head lang="en">
@@ -29,5 +41,9 @@ Date Nov 5, 2014
             <input class="btn" type="submit" name="submit" value="Submit" />
         </form>
     </section>
+
+<!----- READ DATA ------>
+
+
 </body>
 </html>
