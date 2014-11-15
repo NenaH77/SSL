@@ -24,7 +24,7 @@ if($_SERVER['REQUEST_METHOD']=='POST'){
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>Create and read XML in PHP | Activity 3-1</title>
+<title>Create and Read XML in PHP | Activity 3-1</title>
 
 <!-- CSS -->
 <link rel="stylesheet" href="css/style.css" type="text/css">

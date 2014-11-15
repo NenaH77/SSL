@@ -1,10 +1,10 @@
 <?php
 header('Content-Type: application/json');
 
-$username="root";
-$password="root";
+$user="root";
+$pass="root";
 
-$db = new PDO('mysql:host=localhost;dbname=ssl;port=8889', $username, $password);
+$db = new PDO('mysql:host=localhost;dbname=ssl;port=8889', $user, $pass);
 
 $sql = $db->prepare('SELECT * FROM fruits;');
 $sql->execute();

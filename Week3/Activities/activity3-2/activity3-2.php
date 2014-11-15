@@ -17,7 +17,6 @@ if($_SERVER['REQUEST_METHOD']=='POST'){
     $sql->bindParam(':fruitcolor', $fruitcolor);
     $sql->execute();
 }
-
 ?>
 
 <!DOCTYPE hmtl>
@@ -45,8 +44,8 @@ if($_SERVER['REQUEST_METHOD']=='POST'){
         });
     });
     function jsonParser(json){
-        $.each(json, function(i, obj){
-            $('#container').append('<div>' + obj.id + obj.fruitname +  obj.fruitcolor + '</div>');
+        $.each(json, function(keys, value){
+            $('#container').append('<div>' + value.id + value.fruitname +  value.fruitcolor + '</div>');
         });
     };
     </script>
